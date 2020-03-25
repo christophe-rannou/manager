@@ -96,6 +96,14 @@ export default class ProductOffersDetachService {
       paymentParameters.paymentMeanId = paymentMethod.paymentMeanId;
     }
 
+    // Code for test purpose as the "DEFERRED_PAYMENT_ACCOUNT" method payment doesn't exists for customers
+    if (
+      paymentMethod.paymentType ===
+      this.OVH_PAYMENT_METHOD_TYPE.DEFERRED_PAYMENT_ACCOUNT
+    ) {
+      paymentParameters.paymentMean = 'ovhAccount';
+    }
+
     return this.orderService.payRegisteredPaymentMean(
       {
         orderId: order.orderId,
