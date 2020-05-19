@@ -11,8 +11,8 @@ export default /* @ngInject */ ($stateProvider) => {
     },
     resolve: {
       user: /* @ngInject */ (OvhApiMe) => OvhApiMe.v6().get().$promise,
-      vpsList: /* @ngInject */ (VpsMigrationService) =>
-        VpsMigrationService.getVpsList(),
+      vpsList: /* @ngInject */ (catalog, VpsMigrationService) =>
+        VpsMigrationService.getVpsList(catalog),
       faqLink: /* @ngInject */ ($translate, coreConfig) =>
         get(
           FAQ_LINK,

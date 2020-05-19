@@ -26,28 +26,18 @@ export default class {
   }
 
   getMigrationInfo(vps) {
-    return this.getMigrationDetails(vps.name, this.catalog)
-      .then((res) => {
-        const migrationPlan = this.VpsMigrationService.constructor.getMigrationPlan(
-          this.catalog,
-          res.model,
-        );
-        return {
-          description: this.VpsMigrationService.getVpsModelDescription(
-            vps.model,
-          ),
-          migration: res,
-          migrationPlan,
-          migrationDescription: this.VpsMigrationService.getVpsModelDescription(
-            migrationPlan.description,
-          ),
-        };
-      })
-      .catch((err) => {
-        if (err.status === 460) {
-          remove(this.vpsList, { name: vps.name });
-        }
-      });
+    const migrationPlan = this.VpsMigrationService.constructor.getMigrationPlan(
+      this.catalog,
+      vps.migration.model,
+    );
+    return {
+      description: this.VpsMigrationService.getVpsModelDescription(vps.model),
+      migration: vps.migration,
+      migrationPlan,
+      migrationDescription: this.VpsMigrationService.getVpsModelDescription(
+        migrationPlan.description,
+      ),
+    };
   }
 
   // eslint-disable-next-line consistent-return
