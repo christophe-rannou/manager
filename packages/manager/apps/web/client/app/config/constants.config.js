@@ -870,99 +870,225 @@ module.exports = {
       },
     },
     URLS: {
+      ASIA: {
+        support: 'https://www.ovh.com/ca/en/support/',
+        guides: {
+          home: 'https://docs.ovh.com/asia/en/',
+          all: 'https://docs.ovh.com/asia/en/',
+          wordpress:
+            'https://codex.wordpress.org/Getting_Started_with_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/English+documentation',
+          phpAppendices: 'http://php.net/manual/en/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-how-can-i-update-my-website-to-support-apache-2-4/3851',
+          },
+        },
+        dnssec_service: 'https://www.ovh.com/asia/domains/dnssec_service.xml',
+        domainOrder: 'https://www.ovh.com/asia/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/en/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com/asia/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
+        changeOwner:
+          'https://ca.ovh.com/en/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/asia/order/domain/#/legacy/domain/trade/list',
+        exchangeOrder: 'https://www.ovh.com/us/emails/hosted-exchange/',
+      },
+      AU: {
+        support: 'https://www.ovh.com/ca/en/support/',
+        guides: {
+          home: 'https://docs.ovh.com/au/en/',
+          all: 'https://docs.ovh.com/au/en/',
+          wordpress:
+            'https://codex.wordpress.org/Getting_Started_with_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/English+documentation',
+          phpAppendices: 'http://php.net/manual/en/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-how-can-i-update-my-website-to-support-apache-2-4/3851',
+          },
+        },
+        dnssec_service: 'https://www.ovh.com/au/domains/dnssec_service.xml',
+        domainOrder: 'https://www.ovh.com/au/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/en/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com.au/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
+        changeOwner:
+          'https://ca.ovh.com/en/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/au/order/domain/#/legacy/domain/trade/list',
+        exchangeOrder: 'https://www.ovh.com/us/emails/hosted-exchange/',
+      },
       CA: {
         // eq to en_CA
         support: 'https://www.ovh.com/ca/en/support/',
         guides: {
-          home: 'http://docs.ovh.ca/en/',
-          sshCreate: 'https://www.ovh.com/ca/en/g1769.creating_ssh_keys',
-          sshAdd:
-            'https://www.ovh.com/ca/en/g1924.configuring_additionnal_ssh_key',
-          sshChange:
-            'https://www.ovh.com/ca/en/g2069.replacing_your_lost_ssh_key_pair',
+          home: 'https://docs.ovh.com/ca/en/',
+          all: 'https://docs.ovh.com/ca/en/',
+          wordpress:
+            'https://codex.wordpress.org/Getting_Started_with_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/English+documentation',
+          phpAppendices: 'http://php.net/manual/en/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-how-can-i-update-my-website-to-support-apache-2-4/3851',
+          },
         },
-        dnssec_service: 'https://www.ovh.co.uk/domains/dnssec_service.xml',
-        vpsCloud: 'http://www.ovh.co.uk/vps/vps-cloud.xml',
+        dnssec_service: 'https://www.ovh.com/ca/en/domains/dnssec_service.xml',
+        domainOrder: 'https://www.ovh.com/ca/en/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/en/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com/ca/en/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
         changeOwner:
-          'https://www.ovh.co.uk/cgi-bin/procedure/procedureChangeOwner.cgi',
-        domainOrder: 'https://www.ovh.co.uk/cgi-bin/newOrder/order.cgi',
-        domainOrderChange: 'https://www.ovh.co.uk/cgi-bin/newOrder/order.cgi',
+          'https://ca.ovh.com/en/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/ca/en/order/domain/#/legacy/domain/trade/list',
         exchangeOrder: 'https://www.ovh.com/ca/en/emails/hosted-exchange/',
       },
       QC: {
         // eq to fr_CA
         support: 'https://www.ovh.com/ca/fr/support/',
         guides: {
-          home: 'http://docs.ovh.ca/fr/',
-          sshCreate: 'https://www.ovh.com/ca/fr/g1769.creation_des_cles_ssh',
-          sshAdd:
-            'https://www.ovh.com/ca/fr/g1924.configurer_des_cles_ssh_supplementaires',
-          sshChange:
-            'https://www.ovh.com/ca/fr/g2069.changer_sa_cle_ssh_en_cas_de_perte',
+          home: 'https://docs.ovh.com/ca/fr/',
+          all: 'https://docs.ovh.com/ca/fr/',
+          wordpress:
+            'https://codex.wordpress.org/fr:Premiers_pas_avec_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/Guide+de+l%27utilisateur',
+          phpAppendices: 'http://php.net/manual/fr/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-comment-mettre-a-jour-mon-site-pour-supporter-apache-2-4/3850',
+          },
         },
-        dnssec_service: 'https://www.ovh.com/fr/domaines/service_dnssec.xml',
-        vpsCloud: 'https://www.ovh.com/fr/vps/vps-cloud.xml',
+        dnssec_service: 'https://www.ovh.com/ca/fr/domaine/service_dnssec.xml',
+        domainOrder: 'https://www.ovh.com/ca/fr/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/fr/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com/ca/fr/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
         changeOwner:
-          'https://www.ovh.com/cgi-bin/fr/procedure/procedureChangeOwner.cgi',
-        domainOrder: 'https://www.ovh.com/fr/cgi-bin/newOrder/order.cgi',
-        domainOrderChange: 'https://www.ovh.com/fr/cgi-bin/newOrder/order.cgi',
+          'https://ca.ovh.com/fr/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/ca/fr/order/domain/#/legacy/domain/trade/list',
         exchangeOrder: 'https://www.ovh.com/ca/fr/emails/hosted-exchange/',
-        renewAlign: 'https://eu.ovh.com/fr/cgi-bin/order/renew.cgi?alignDate=1',
+      },
+      SG: {
+        support: 'https://www.ovh.com/ca/en/support/',
+        guides: {
+          home: 'https://docs.ovh.com/sg/en/',
+          all: 'https://docs.ovh.com/sg/en/',
+          wordpress:
+            'https://codex.wordpress.org/Getting_Started_with_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/English+documentation',
+          phpAppendices: 'http://php.net/manual/en/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-how-can-i-update-my-website-to-support-apache-2-4/3851',
+          },
+        },
+        dnssec_service: 'https://www.ovh.com/sg/domains/dnssec_service.xml',
+        domainOrder: 'https://www.ovh.com/sg/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/en/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com/sg/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
+        changeOwner:
+          'https://ca.ovh.com/en/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/sg/order/domain/#/legacy/domain/trade/list',
+        exchangeOrder: 'https://www.ovh.com/us/emails/hosted-exchange/',
       },
       WE: {
         support: 'https://www.ovh.com/ca/en/support/',
         guides: {
-          home: 'http://docs.ovh.ca/en/',
-          sshCreate: 'https://www.ovh.com/ca/en/g1769.creating_ssh_keys',
-          sshAdd:
-            'https://www.ovh.com/ca/en/g1924.configuring_additionnal_ssh_key',
-          sshChange:
-            'https://www.ovh.com/ca/en/g2069.replacing_your_lost_ssh_key_pair',
+          home: 'https://docs.ovh.com/ca/en/',
+          all: 'https://docs.ovh.com/ca/en/',
+          wordpress:
+            'https://codex.wordpress.org/Getting_Started_with_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/English+documentation',
+          phpAppendices: 'http://php.net/manual/en/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-how-can-i-update-my-website-to-support-apache-2-4/3851',
+          },
         },
-        dnssec_service: 'https://www.ovh.co.uk/domains/dnssec_service.xml',
-        vpsCloud: 'http://www.ovh.co.uk/vps/vps-cloud.xml',
+        dnssec_service: 'https://www.ovh.com/world/domains/dnssec_service.xml',
+        domainOrder: 'https://www.ovh.com/world/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/en/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com/world/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
         changeOwner:
-          'https://www.ovh.co.uk/cgi-bin/procedure/procedureChangeOwner.cgi',
-        domainOrder: 'https://www.ovh.co.uk/cgi-bin/newOrder/order.cgi',
-        domainOrderChange: 'https://www.ovh.co.uk/cgi-bin/newOrder/order.cgi',
+          'https://ca.ovh.com/en/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/world/order/domain/#/legacy/domain/trade/list',
         exchangeOrder: 'https://www.ovh.com/us/emails/hosted-exchange/',
       },
       WS: {
         // eq to es_US
         support: 'https://www.ovh.com/ca/en/support/',
         guides: {
-          home: 'http://docs.ovh.ca/en/',
-          sshCreate: 'https://www.ovh.com/ca/en/g1769.creating_ssh_keys',
-          sshAdd:
-            'https://www.ovh.com/ca/en/g1924.configuring_additionnal_ssh_key',
-          sshChange:
-            'https://www.ovh.com/ca/en/g2069.replacing_your_lost_ssh_key_pair',
+          home: 'https://docs.ovh.com/us/es/',
+          all: 'https://docs.ovh.com/us/es/',
+          wordpress:
+            'https://codex.wordpress.org/Getting_Started_with_WordPress',
+          prestashop:
+            'http://doc.prestashop.com/display/PS16/English+documentation',
+          phpAppendices: 'http://php.net/manual/en/appendices.php',
+          works: {
+            apache:
+              'https://community.ovh.com/t/faq-how-can-i-update-my-website-to-support-apache-2-4/3851',
+          },
         },
-        dnssec_service: 'https://www.ovh.com/fr/domaines/service_dnssec.xml',
-        vpsCloud: 'https://www.ovh.com/fr/vps/vps-cloud.xml',
+        dnssec_service:
+          'https://www.ovh.com/world/es/domains/dnssec_service.xml',
+        domainOrder: 'https://www.ovh.com/world/es/order/domain',
+        domainOrderChange: 'https://ca.ovh.com/en/cgi-bin/newOrder/order.cgi',
+        domainOrderTrade:
+          "https://www.ovh.com/world/es/order/domain/#/legacy/domain/trade/informations?options=~~(domain~~'{domain})",
         changeOwner:
-          'https://www.ovh.es/cgi-bin/procedure/procedureChangeOwner.cgi',
-        domainOrder: 'https://www.ovh.com/fr/cgi-bin/newOrder/order.cgi',
-        domainOrderChange: 'https://www.ovh.com/fr/cgi-bin/newOrder/order.cgi',
-        exchangeOrder: 'https://www.ovh.com/us/es/emails/hosted-exchange/',
-        renewAlign:
-          'https://www.ovh.es/cgi-bin/order/renew.cgi?alignDate=1&csid=0',
+          'https://ca.ovh.com/en/cgi-bin/procedure/procedureChangeOwner.cgi',
+        bulkChangeOwner:
+          'https://www.ovh.com/world/es/order/domain/#/legacy/domain/trade/list',
+        exchangeOrder: 'https://www.ovh.com/us/emails/hosted-exchange/',
       },
       hosting: {
+        ASIA: 'https://www.ovh.com/asia/',
+        AU: 'https://www.ovh.com/au/',
         CA: 'https://www.ovh.com/ca/en/',
         QC: 'https://www.ovh.com/ca/fr/',
-        RU: 'https://www.ovh.ie/web-hosting/',
-        SN: 'https://www.ovh.sn/hebergement-web/',
-        TN: 'https://www.ovh.com/tn/hebergement-web/',
-        WE: 'http://www.ovh.com/us/',
+        SG: 'https://www.ovh.com/sg',
+        WE: 'http://www.ovh.com/world/',
+        WS: 'https://www.ovh.com/world/es',
       },
       express_order: {
+        ASIA: 'https://www.ovh.com/asia/order/express/',
+        AU: 'https://www.ovh.com/au/order/express/',
         CA: 'https://www.ovh.com/ca/en/order/express/',
         QC: 'https://www.ovh.com/ca/fr/order/express/',
-        RU: 'https://www.ovh.ie/order/express/',
-        SN: 'https://www.ovh.sn/order/express/',
-        TN: 'https://www.ovh.com/tn/order/express/',
+        SG: 'https://www.ovh.com/sg/order/express/',
         WE: 'https://www.ovh.com/us/order/express/',
+        WS: 'https://www.ovh.com/world/es/order/express/',
+      },
+      domain_order_options_service: {
+        ASIA:
+          "https://www.ovh.com/asia/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
+        AU:
+          "https://www.ovh.com/au/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
+        CA:
+          "https://www.ovh.com/ca/en/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
+        QC:
+          "https://www.ovh.com/ca/fr/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
+        SG:
+          "https://www.ovh.com/sg/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
+        WE:
+          "https://www.ovh.com/world/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
+        WS:
+          "https://www.ovh.com/world/es/order/domain/#/legacy/domain/hosting/choose?options=~(~(flow~'hosting_existing_service~serviceName~'{domain}))",
       },
       TOOLS: {
         ZONE_CHECK: 'https://www.zonemaster.net/',
